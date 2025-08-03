@@ -1,0 +1,22 @@
+Portfolio Website Customization Guide
+
+1. index.html
+- Your Name: Replace "Your Name" in the hero section's <h1> tag.
+- Profile Photo: Replace the image file at assets/profile.jpg with your own photo.
+- About Me: Update the paragraph text inside the About section <section id="about">.
+- Projects: Update the project cards inside the Projects section <section id="projects">:
+  - Replace project images in assets/project1.jpg, project2.jpg, project3.jpg.
+  - Update the project titles and descriptions inside each .project-card div.
+- Contact Email and Phone: Update the email address and phone number in the Contact section <section id="contact">.
+- Contact Form Email: In scripts.js, update the email address in the mailto link inside the contact form submission handler.
+
+2. assets/
+- Replace the placeholder images (profile.jpg, project1.jpg, project2.jpg, project3.jpg) with your actual images. Keep the same filenames or update the paths in index.html accordingly.
+
+3. styles.css
+- Customize colors, fonts, and layout styles if desired.
+
+4. scripts.js
+- Update the email address in the mailto link inside the contact form submission handler to your actual email.
+
+If you want, I can provide exact code snippets for each change.
