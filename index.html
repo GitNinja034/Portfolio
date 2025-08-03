@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">ANUBHAV CHOUDHARY</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="photo-container">
+                <img src="assets/profile.jpg" alt="Profile Photo" id="profile-photo">
+            </div>
+            <h1>Hi, I'm <span class="highlight">Anubhav Choudhary</span></h1>
+            <p>Welcome to my portfolio website</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Anubhav, a passionate and driven B.Tech student with a strong interest in technology, innovation, and problem-solving. 
+                Currently pursuing my Bachelor's degree in INFORMATION TECHNOLOGY at NIET.I enjoy working on hands-on projects that challenge my technical skills and allow me to learn beyond the classroom. 
+                From coding to collaborating on team-based innovations, I thrive in environments that encourage growth and creativity.I’m always eager to take on new challenges, internships, and collaborations that help me grow as a future engineer.<br>
+            I have developed proficiency in programming languages such as Python and Java along with a solid understanding of web development technologies including HTML, CSS, and JavaScript. I am also familiar with front-end frameworks like React and have experience working with databases such as MySQL. My academic projects have strengthened my skills in  AIML field where i learned the automation,machine programming. Beyond technical capabilities, I bring strong problem-solving skills, effective communication, and the ability to work collaboratively in team environments.<br>
+            I am  adaptable and committed to continuous learning, with hands-on experience using Git for version control and platforms like VS Code and Jupyter Notebook for development.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                   <!---- <img src="assets/project1.jpg" alt="Project 1"> -->
+                    <h3>Project 1</h3>
+                    <p>Designed and implemented an email automation workflow using n8n, enabling automatic email dispatch to a dynamic list of recipients, improving communication efficiency and reducing manual effort.</p>
+                </div>
+                <div class="project-card">
+                   <!--- <img src="assets/project2.jpg" alt="Project 2"> -->
+                    <h3>Project 2</h3>
+                    <p>Built a full-stack flight booking app with features like flight search, seat selection, user accounts, and payment gateway integration; implemented responsive UI and backend API for real-time booking and availability management.</p>
+                </div>
+                <div class="project-card">
+                    <!--<img src="assets/project3.jpg" alt="Project 3">-->
+                    <h3>Project 3</h3>
+                    <p>Developed multiple interactive web-based games and personal portfolio websites, showcasing creative design, responsive layouts, and dynamic user experiences using modern front-end technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+<form id="contact-form" action="#" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+</form>
+            <div class="contact-info">
+                <p>Email: <a href="choudharyanubhav2021@gmail.com">choudharyanubhav2021@gmail.com</a></p>
+                <p>Phone: <a href="tel:+91 9389882149">+91 9389882149</a></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
